@@ -1,0 +1,217 @@
+/* =========================================
+   OCEAN VIEW HOSPITAL
+   Fully Consistent Coastal Medical Theme
+   ========================================= */
+
+body {
+    background: #F4F8FA; /* Abu-abu kebiruan yang sangat lembut di mata */
+    font-family: 'Poppins', sans-serif;
+    color: #334155; /* Slate gelap untuk teks utama agar elegan dan bersih */
+}
+
+/* ================= HEADER & NAVIGATION ================= */
+
+header {
+    background: #1E4E79 !important; /* Deep Ocean Navy (Warna Utama/Primary) */
+    box-shadow: 0 4px 20px rgba(30, 78, 121, 0.15);
+}
+
+header h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+header a {
+    color: #E2F1FF !important;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+}
+
+header a:hover {
+    color: #38BDF8 !important; /* Cyan cerah untuk kesan modern saat di-hover */
+}
+
+/* ================= SECTION ================= */
+
+section {
+    padding: 70px 0;
+}
+
+section:nth-child(even) {
+    background: #EBF3F7; /* Kontras antar-seksi yang smooth dan tidak monoton */
+}
+
+section h1,
+section h2 {
+    color: #1E4E79; 
+    font-weight: 700;
+}
+
+section p {
+    line-height: 1.8;
+    color: #475569;
+}
+
+/* ================= IMAGE ================= */
+
+img {
+    border-radius: 18px;
+}
+
+/* ================= CARDS (TERMASUK RINGKASAN SISTEM) ================= */
+
+.card {
+    border: none;
+    border-radius: 18px;
+    background: #FFFFFF;
+    overflow: hidden; /* Memastikan sudut header ikut tumpul jika ada background */
+    transition: .35s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(30, 78, 121, 0.12); /* Bayangan estetik sewarna tema */
+}
+
+.card-body {
+    padding: 30px;
+}
+
+/* Menyelaraskan Header Card (seperti Ringkasan Sistem) */
+.card .card-header,
+.card-header-custom {
+    background: #1E4E79 !important; /* Deep Ocean Navy */
+    color: #FFFFFF !important;
+    font-weight: 600;
+    border-bottom: none;
+    padding: 15px 20px;
+}
+
+/* Mengubah List di dalam Card (Ringkasan Sistem) */
+.list-group-item {
+    background-color: #FFFFFF !important;
+    border-color: #E2E8F0 !important; /* Garis pembatas yang lebih tipis dan bersih */
+    color: #334155; /* Slate gelap agar teks nyaman dibaca */
+    padding: 14px 20px;
+    font-size: 0.95rem;
+}
+
+/* Icon / Centang di dalam List agar sewarna Fresh Mint */
+.list-group-item i, 
+.list-group-item svg,
+.text-success-custom {
+    color: #0D9488 !important; /* Fresh Mint, menggantikan hijau neon lama */
+    fill: #0D9488 !important;
+}
+
+/* ================= BUTTONS (KONSISTEN) ================= */
+
+.btn {
+    border-radius: 12px;
+    padding: 10px 22px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+
+/* Tombol Utama - Sky Teal */
+.btn-primary {
+    background: #0284C7;
+    border: none;
+    color: #FFFFFF !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background: #0369A1;
+    box-shadow: 0 0 0 4px rgba(2, 132, 199, 0.25);
+}
+
+/* Tombol Sukses - Fresh Mint */
+.btn-success {
+    background: #0D9488;
+    border: none;
+    color: #FFFFFF !important;
+}
+
+.btn-success:hover, .btn-success:focus {
+    background: #0F766E;
+    box-shadow: 0 0 0 4px rgba(13, 148, 136, 0.25);
+}
+
+/* Tombol Warning - Deep Coral (Aksen Pemanis Biar Gak Bosen) */
+.btn-warning {
+    background: #F97316;
+    border: none;
+    color: #FFFFFF !important;
+}
+
+.btn-warning:hover, .btn-warning:focus {
+    background: #EA580C;
+    box-shadow: 0 0 0 4px rgba(249, 115, 22, 0.25);
+}
+
+/* ================= ALERTS (KONSISTEN) ================= */
+
+/* Alert Info/Primary - Biru Es Bersih */
+.alert-primary {
+    background: #E0F2FE;
+    border: none;
+    border-left: 4px solid #0284C7;
+    color: #0369A1;
+}
+
+/* Alert Sukses - Mint Lembut */
+.alert-success {
+    background: #CCFBF1;
+    border: none;
+    border-left: 4px solid #0D9488;
+    color: #115E59;
+}
+
+/* Alert Peringatan - Coral Lembut */
+.alert-warning {
+    background: #FFEDD5;
+    border: none;
+    border-left: 4px solid #F97316;
+    color: #9A3412;
+}
+
+/* ================= TABLES (KONSISTEN) ================= */
+
+.table {
+    background: #FFFFFF;
+    color: #334155;
+}
+
+/* Header Tabel atau Baris Sorotan Utama */
+.table-primary, 
+.table-primary th, 
+.table-primary td {
+    background: #E0F2FE !important;
+    color: #0369A1 !important;
+}
+
+/* Baris Sorotan Sukses */
+.table-success, 
+.table-success th, 
+.table-success td {
+    background: #CCFBF1 !important;
+    color: #115E59 !important;
+}
+
+/* ================= FOOTER ================= */
+
+footer {
+    background: #0F2D4A; /* Navy super gelap untuk kesan solid di akhir halaman */
+    padding: 40px 0;
+}
+
+footer p {
+    color: #94A3B8; /* Teks abu-abu terang agar tidak terlalu mencolok di latar gelap */
+}
+
+/* ================= SHADOWS ================= */
+
+.shadow {
+    box-shadow: 0 10px 30px rgba(30, 78, 121, 0.08) !important;
+}
